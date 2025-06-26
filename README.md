@@ -1,3 +1,18 @@
+# 🌟 Aarthi — Portfolio
+
+> A modern, responsive portfolio website built with React, Vite, Bootstrap 5, and a light/dark theme toggle.
+
+---
+
+## 🚀 Live Demo
+
+[Live on Vercel](https://your-vercel-domain.vercel.app)  
+[Live on Netlify](https://your-netlify-domain.netlify.app)
+
+---
+
+## 📁 Project Structure
+
 portfolio-anish/
 ├── public/
 │ ├── favicon.png
@@ -20,8 +35,6 @@ portfolio-anish/
 ├── vite.config.js
 └── README.md
 
-yaml
-Copy code
 
 ---
 
@@ -39,24 +52,17 @@ Copy code
 
 1. **Clone the repo**
    ```bash
-   git clone https://github.com/your-username/portfolio-anish.git
-   cd portfolio-anish
+   git clone https://github.com/aarthiofficial/portfolio.git
+   cd portfolio
 Install dependencies
-
-bash
-Copy code
 npm install
 Run locally
 
-bash
-Copy code
 npm run dev
 Open http://localhost:5173 to view in your browser.
 
 Build for production
 
-bash
-Copy code
 npm run build
 Preview production build
 
