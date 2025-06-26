@@ -1,0 +1,48 @@
+/* === Global Reset & Base Setup === */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: 'Montserrat', sans-serif;
+  scroll-behavior: smooth;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+/* === Light Theme === */
+body.theme-light {
+  background-color: #ffffff;
+  color: #212529;
+}
+
+/* === Dark Theme === */
+body.theme-dark {
+  background-color: #121212;
+  color: #f8f9fa;
+}
+
+/* === Utility Classes === */
+.section-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+/* === Responsive Tweaks === */
+@media (max-width: 768px) {
+  .section-title {
+    font-size: 2rem;
+  }
+}
